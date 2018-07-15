@@ -8,6 +8,7 @@ MAINTAINER WangQi chesswang197947@hotmail.com
 ENV ORACLE_SID 		xe
 
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod a+x /entrypoint.sh
 
 EXPOSE 1521
 EXPOSE 8080
